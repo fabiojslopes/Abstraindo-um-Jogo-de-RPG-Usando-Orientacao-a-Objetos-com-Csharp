@@ -2,6 +2,10 @@ namespace exemploRPG.SRC.Entities
 {
     public abstract class Hero
     {
+        public Hero()
+        {
+            
+        }
         public Hero(string Name, int Level, string HeroType)
         {
             this.Name = Name;
